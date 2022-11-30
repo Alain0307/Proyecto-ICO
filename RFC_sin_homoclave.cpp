@@ -27,5 +27,10 @@ int main()
 
 	sprintf(sanon, "%4i", anon);
 
+	rfc[0] = toupper(app[0]);
+	rfc[1] = toupper(app[1]);
+	rfc[2] = toupper(apm[0]);
+	rfc[3] = toupper(nombre[0]);
+
 
 }
