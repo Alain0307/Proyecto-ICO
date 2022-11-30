@@ -18,5 +18,13 @@ int main()
 	printf("Apellido materno:");
 	scanf_s("%s", apm, 20);
 
+	printf("Día de nacimiento:");
+	scanf_s("%i", &dian);
+	printf("Mes de nacimiento:");
+	scanf_s("%i", &mesn);
+	printf("Año de nacimiento:");
+	scanf_s("%i", &anon);
+
+
 
 }
