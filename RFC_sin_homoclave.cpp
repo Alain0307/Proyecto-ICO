@@ -25,6 +25,7 @@ int main()
 	printf("Año de nacimiento:");
 	scanf_s("%i", &anon);
 
+	sprintf(sanon, "%4i", anon);
 
 
 }
