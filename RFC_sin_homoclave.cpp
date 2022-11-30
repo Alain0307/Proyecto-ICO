@@ -11,6 +11,12 @@ int main()
 	char rfc[30];
 	char sanon[5];
 
+	printf("Nombre:");
+	scanf_s("%s", nombre, 20);
+	printf("Apellido paterno:");
+	scanf_s("%s", app, 20);
+	printf("Apellido materno:");
+	scanf_s("%s", apm, 20);
 
 
 }
