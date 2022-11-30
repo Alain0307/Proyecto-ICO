@@ -25,7 +25,7 @@ int main()
 	printf("Año de nacimiento:");
 	scanf_s("%i", &anon);
 
-	sprintf(sanon, "%4i", anon);
+	sprintf_s(sanon, "%4i", anon);
 
 	rfc[0] = toupper(app[0]);
 	rfc[1] = toupper(app[1]);
@@ -34,7 +34,7 @@ int main()
 	rfc[4] = sanon[2];
 	rfc[5] = sanon[3];
 	rfc[6] = '\0';
-
+	printf("%s%02i%02i", rfc, mesn, dian);
 
 
 }
